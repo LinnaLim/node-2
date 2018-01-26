@@ -1,0 +1,8 @@
+git remote add origin https://github.com/
+git push -u origin master
+
+git add. // indexer l'ensemble des fichiers modifiés
+git add <nom du fichier> // indexer un fichier
+
+git status
+git status -s

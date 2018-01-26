@@ -38,3 +38,8 @@ header nav ul li a {
 header nav ul li a:hover {
   background-color: #aaa;
 }
+/* MAIN */
+main {
+  display: flex;
+  flex-direction: column;
+}

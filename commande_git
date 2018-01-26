@@ -1,4 +1,4 @@
-git remote add origin https://github.com/
+git remote add origin https://github.com/LinnaLim/veille-node.git
 git push -u origin master
 
 git add. // indexer l'ensemble des fichiers modifiés
@@ -6,3 +6,5 @@ git add <nom du fichier> // indexer un fichier
 
 git status
 git status -s
+
+git commit -m <commentaire>

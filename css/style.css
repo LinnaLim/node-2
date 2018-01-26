@@ -15,11 +15,14 @@ header {
 }
 header h1 {
   color: #fff;
+  margin: 0 auto;
+  padding: 1em;
 }
 /* MENU */
 header nav ul {
   list-style-type: none;
-  padding: 3px;
+  padding: 0.5em;
+  margin: 0 auto;
 }
 header nav ul li {
   display: flex;
@@ -27,10 +30,11 @@ header nav ul li {
   justify-content: flex-start;
 }
 header nav ul li a {
-  display: block;
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   font-size: 150%;
-  padding: 3px;
+  padding: 0.5em;
   color: #fff;
   flex: 1;
   transition: background-color 1s;
@@ -77,14 +81,14 @@ main section.deuxieme article:nth-child(3) {
 }
 /* FOOTER */
 footer {
-  height: 20%;
+  height: 80px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 footer div {
-  width: 30px;
+  width: 5%;
 }
 footer div i {
   color: #fff;

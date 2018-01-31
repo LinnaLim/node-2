@@ -39,12 +39,17 @@ header nav ul li{
 header nav ul li a{
 	display:flex;
 	justify-content: center;
+	flex-wrap: nowrap;
 	text-decoration:none;
 	font-size:150%;
 	padding:0.5em;
 	color:@couleurBlanche;
 	flex:1;
 	transition:background-color 1s;
+
+	border: 3px solid @couleurBlanche;
+	border-radius: 50px;
+	margin: 0.25em;
 }
 header nav ul li a:hover{
 	background-color:@couleurGriseBlanc;
@@ -106,9 +111,9 @@ footer div a{
 	text-decoration: none;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 700px) {
 	header{
-		flex-direction:row;
+		flex-direction:column;
 		justify-content:space-between;
 		align-items:center;
 	}
@@ -134,5 +139,13 @@ footer div a{
 
 	footer div a .fa{
 		font-size: 2em;
+	}
+}
+
+@media only screen and (min-width: 1100px) {
+	header{
+		flex-direction:row;
+		justify-content:space-between;
+		align-items:center;
 	}
 }

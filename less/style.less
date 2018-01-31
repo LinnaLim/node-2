@@ -1,11 +1,15 @@
+@couleurPrincipale: #34495e;
+@couleurBlanche: #fff;
+@couleurGrisePale: #aaa;
+
 body{
 	display:flex;
 	flex-direction:column;
 	font-family:arial;
-	background-color:#aaa;
+	background-color:@couleurGrisePale;
 }
 footer,header{
-	background-color:#34495e;
+	background-color:@couleurPrincipale;
 }
 header{
 	display:flex;
@@ -15,7 +19,7 @@ header{
 
 
 header h1{
-	color: #fff;
+	color: @couleurBlanche;
 	margin: 0 auto;
 	padding: 1em;
 }
@@ -37,12 +41,12 @@ header nav ul li a{
 	text-decoration:none;
 	font-size:150%;
 	padding:0.5em;
-	color:#fff;
+	color:@couleurBlanche;
 	flex:1;
 	transition:background-color 1s;
 }
 header nav ul li a:hover{
-	background-color:#aaa;
+	background-color:@couleurGrisePale;
 }
 
 
@@ -89,14 +93,14 @@ footer div{
 	width:5%;
 }
 footer div a i{
-	color:#fff;
+	color:@couleurBlanche;
 	transition:color 1s;
 }
 footer div a i:hover, footer div a:hover{
-	color:#ccc;
+	color:@couleurGrisePale;
 }
 footer div a{
-	color:#fff;
+	color:@couleurBlanche;
 	text-decoration: none;
 }
 
